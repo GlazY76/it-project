@@ -1,0 +1,10 @@
+node_modules/
+coverage/
+.env
+.DS_Store
+
+# One-time backup written before the first migration, and SQLite side files
+data/shop.original.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
